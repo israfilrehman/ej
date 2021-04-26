@@ -4,6 +4,12 @@ body{
     font-weight:normal;
     background-color: #ffcf79;
     font-size: 25px;
+    padding: 10px;
+    border-color: rgb(61, 53, 50);
+    border-width: 2px;
+    border-style: solid;
+    
+    
 
     
     
@@ -28,14 +34,41 @@ p.p2{
     color:purple;
     font-size: 15px;
     line-height: 1.5em;
+    background-color: #e5e4d7;
+    padding: 20px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
     
    
 }
 p.p3{
+    text-align: center;
     color:purple;
     font-size: 35px;
-    
     font-style: italic;
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 800px;
+
+}
+.image{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 3px;
+   background-color: silver;
+   border-color: black;
+   border-width: 2px;
+   border-style: solid;
+
 }
 
 
