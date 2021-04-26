@@ -5,9 +5,8 @@ body{
     background-color: #ffcf79;
     font-size: 25px;
     padding: 10px;
-    border-color: rgb(61, 53, 50);
-    border-width: 2px;
-    border-style: solid;
+   
+    
     
     
 
@@ -15,40 +14,51 @@ body{
     
 }
 h1{
+    
 
   text-decoration: underline;
   font-size: 150%;
+  text-align: center;
   
 }
 h2{
     text-decoration: underline;
     font-size: 1.2em;
+    text-align: center;
 
 }
 p.p1{
-    color:blue;
+    color:black;
+    padding: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-image: url(images/cloud.jpg);
    
    
 }
 p.p2{
-    color:purple;
+    color:black;
     font-size: 15px;
     line-height: 1.5em;
     background-color: #e5e4d7;
     padding: 20px;
-    border-color: black;
+    border-color:black;
+    border-radius: 10px;
     border-width: 5px;
-    border-style: solid;
+    border-style: ridge;
     margin-left: 50px;
     margin-top: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
+    background-image: url(images/cloud.jpg);
+    
     
    
 }
 p.p3{
     text-align: center;
-    color:purple;
+    color:black;
     font-size: 35px;
     font-style: italic;
     background-color: cornflowerblue;
@@ -69,6 +79,29 @@ p.p3{
    border-width: 2px;
    border-style: solid;
 
+}
+#divmain{
+    color:royalblue;
+}
+#divbass{
+  
+    color:royalblue;
+}
+.highlight{
+    background-color: yellow;
+}
+.divcontent{
+    color:royalblue;
+
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: #8c8c9d;
+}
+a:hover{
+    color: #F15A51;
 }
 
 
