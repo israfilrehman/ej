@@ -5,6 +5,7 @@ body{
     background-color: #ffcf79;
     font-size: 25px;
     padding: 10px;
+    cursor: nesw-resize;
    
     
     
@@ -67,10 +68,12 @@ p.p3{
     border-width: 2px;
     border-style: solid;
     margin-left: 800px;
+   
 
 }
 .image{
    display: block;
+   
    margin-left: auto;
    margin-right: auto;
    padding: 3px;
@@ -103,5 +106,34 @@ a:visited{
 a:hover{
     color: #F15A51;
 }
+.float1{
+    background-color: red;
+    color: black;
+    float: left;
+    width: 50%;
+}
+.float2{
+    background-color:orange;
+    color: black;
+    float: right;
+    width: 50%;
+    
+    
+}
+.p2shark{
+    background-color: green;
+    color: yellow;
+}
+.absolute{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 650px;
+    left: 150px;
+    width: 150px;
+    height: 150px;
+
+}
+
 
 
